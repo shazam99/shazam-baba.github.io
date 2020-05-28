@@ -48,11 +48,11 @@ ul li.five a{    /*this to highlight home at website*/
   font-size: 6vw;
 }
 .words{
-  position: fixed;
+  position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%,-50%);
-  margin: auto;
+  margin-top: 20px;
 }
 .words p{
   color: #fff;
