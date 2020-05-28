@@ -45,7 +45,7 @@ ul li.five a{    /*this to highlight home at website*/
 }
 .title h1{
   color: #fff;
-  font-size: 60px;
+  font-size: 3vw;
 }
 .words{
   position: absolute;
@@ -55,6 +55,6 @@ ul li.five a{    /*this to highlight home at website*/
 }
 .words h2{
   color: #fff;
-  font-size: 50px;
+  font-size: 4vw;
   transition: 0.6s ease;
 }
