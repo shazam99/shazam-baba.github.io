@@ -72,7 +72,7 @@ particlesJS('particles-js',
         "speed": 5,
         "direction": "top",
         "random": true,
-        "straight": true,
+        "straight": false,
         "out_mode": "out",
         "attract": {
           "enable": true,
