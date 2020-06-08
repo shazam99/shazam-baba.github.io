@@ -7,9 +7,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
     <header>
 
       <div class="main">
+
         <ul>
           <li class="one"><a href="index.html">HOME</a></li>
           <li class="two"><a href="#">GALLERY</a></li>
@@ -41,5 +44,14 @@
         </div>
       </div>
     </header>
+    <script type="text/javascript">
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) * 100;
+        progress.style.height = (progressHeight + "%" );
+      }
+
+    </script>
   </body>
 </html>
