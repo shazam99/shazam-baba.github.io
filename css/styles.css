@@ -394,6 +394,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin: 10px;
 }
 
 .display-1 {
@@ -2853,7 +2854,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #343a40;
+  : #343a40;
   border-color: #343a40;
 }
 .btn-outline-dark:hover {
